@@ -14,6 +14,9 @@ New features:
 
 Bug fixes:
 
+- Fix handling of VTIMEZONEs with subcomponents with the same DTSTARTs.
+  [geier]
+
 - *add item here*
 
 

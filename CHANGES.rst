@@ -14,6 +14,8 @@ New features:
 
 Bug fixes:
 
+- Don't break on UTCOffsets > 24 hours, even though they make no sense, at least
+  one major calendar service provider uses those [geier]
 - Don't break on parameter values which contain equal signs, e.g. base64 encoded
   binary data [geier]
 - Fix handling of VTIMEZONEs with subcomponents with the same DTSTARTs.
